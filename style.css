@@ -35,6 +35,11 @@ a {
 
 img{
   width: 100%;
+  margin: 5%;
+}
+input {
+  width: 100%;
+  margin: 5%;
 }
 
 button {
@@ -46,4 +51,10 @@ button {
   border:3px groove black;
   font-family: monospace;
   padding: 20px;
+}
+
+.powers {
+width: 35%;
+display: flex;
+
 }

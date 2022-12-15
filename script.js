@@ -12,9 +12,42 @@ function buzzfeedQuiz() {
 
 
   // task 5: declare variables for values we'll set later. You'll need one for an image source, a result and a score for each question.
+  let water = document.querySelector(".water")
+  let lightning = document.querySelector(".lightning")
+  let time = document.querySelector(".time") 
+  let fire = document.querySelector(".fire")
 
+  //create a global counter containing the score
+  let counter = 0
 
+  water.onclick  = function () {
 
+    counter ++
+    console.log(counter)
+    
+  }
+
+  lightning.onclick = function () {
+    
+    counter = counter + 2
+    console.log(counter)
+  }
+
+  time.onclick = function () {
+
+    counter = counter + 3
+    console.log(counter)
+  }
+
+  fire.onclick = function () {
+
+    counter = counter + 4
+    console.log(counter)
+  }
+  
+  
+  //create an onclick function for every img
+  //increase the counter how ever you see fit based on what's clicked
 
   button.onclick = function() {
 
